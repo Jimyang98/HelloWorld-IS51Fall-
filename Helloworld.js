@@ -4,7 +4,7 @@ var HelloWorld = /** @class */ (function () {
         this.lastName = lastName;
     }
     HelloWorld.prototype.sayHello = function () {
-        console.log('Hello World!' + 'My name is' + this.firstName + '' + this.lastName + '.');
+        console.log('Hello World!' + 'My name is' + this.firstName + ' ' + this.lastName + ' and I am taking IS51 Fall 2019' + '.');
     };
     return HelloWorld;
 }()); //end of class
