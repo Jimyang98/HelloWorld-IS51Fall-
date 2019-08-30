@@ -9,10 +9,9 @@ class HelloWorld {
     }
 
     sayHello() {
-        console.log('Hello World!'+'My name is'+' '+ this.firstName+' '+this.lastName+'.');
+        console.log('Hello World!'+' My name is '+ this.firstName+' '+this.lastName+' and I am taking IS51'+ '.');
     }
 } //end of class
 
 const myHelloinstance = new HelloWorld('Jim', 'Yang');
-
 myHelloinstance.sayHello();
