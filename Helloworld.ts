@@ -9,7 +9,7 @@ class HelloWorld {
     }
 
     sayHello() {
-        console.log('Hello World!' + 'My name is' + this.firstName + ' ' + this.lastName +' and I am taking IS51 Fall 2019' +'.');
+        console.log('Hello World!' + ' My name is' + this.firstName + ' ' + this.lastName +' and I am currently taking IS51 in Fall 2019' +'.');
     }
 } //end of class
 
